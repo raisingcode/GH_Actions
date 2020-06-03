@@ -28,5 +28,4 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Deploy ARM Template
       run: |
-        az group deployment create --template-file ./azuredeploy.json --template-parameter-file ./azuredeploy.parameters.json
-
+        az group deployment create --template-file ./azuredeploy.json --template-parameter-file ./azuredeploy.parameters.json --resource-group lab_resourcegroup 
