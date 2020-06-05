@@ -6,7 +6,7 @@
             "value": "testadm"
         },
         "adminPasswordOrKey": {
-            "value": "protected-password"
+            "value": "Change2ASuperSecureP@ss"
         },
         "dnsLabelPrefix": {
             "value": "labtest"
